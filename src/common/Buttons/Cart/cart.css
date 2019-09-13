@@ -1,0 +1,55 @@
+.cart-button {
+  background: white;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(75, 34, 244);
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+}
+
+.cart-button:hover {
+  background: rgb(75, 34, 244);
+}
+
+.cart-button:focus {
+  outline: none;
+}
+
+.cart-button svg > path {
+  transition: all 0.5s ease 0s;
+  fill: rgb(75, 34, 244) !important;
+}
+
+.cart-button:hover svg > path {
+  transition: all 0.5s ease 0s;
+  fill: rgb(255, 255, 255) !important;
+}
+
+.cart-button__text {
+  margin-left: 8px;
+  color: rgb(75, 34, 244);
+  transition: all 0.5s ease 0s;
+  font-family: Gilroy, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.cart-button:hover .cart-button__text {
+  display: inline-block;
+  color: white;
+}
+
+@media (min-width: 768px){
+  .cart-button .cart-button__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

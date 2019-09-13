@@ -1,0 +1,10 @@
+.level {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.level__text {
+  font-family: Nunito, Arial, sans-serif, dinpro-bold;
+  font-weight: 700;
+}

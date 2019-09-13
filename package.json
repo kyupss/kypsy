@@ -1,7 +1,7 @@
 {
-  "name": "rinse-react",
-  "version": "4.0.0",
-  "description": "Rinse, React, repeat. A React component library boilerplate.",
+  "name": "kyupssy",
+  "version": "0.1.0",
+  "description": "Rinse, React, repeat. A React component library.",
   "main": "dist/rinse.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,13 +15,14 @@
     "url": "git+https://github.com/cwlsn/rinse-react.git"
   },
   "keywords": [
-    "boilerplate",
+    "Rinse",
+    "rinsejs.io",
     "react",
     "shared",
     "components",
-    "components"
+    "kyupssy"
   ],
-  "author": "Connor Wilson",
+  "author": "Juan David",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cwlsn/rinse-react/issues"
@@ -33,6 +34,7 @@
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-actions": "^4.0.0-alpha.20",
     "@storybook/react": "^4.0.0-alpha.20",
+    "@svgr/webpack": "^4.3.2",
     "@tulipjs/eslint-config": "^1.1.1",
     "babel-loader": "^8.0.1",
     "css-loader": "^1.0.0",
@@ -46,6 +48,7 @@
     "webpack-cli": "^3.2.0"
   },
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.2.1"

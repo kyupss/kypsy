@@ -1,0 +1,14 @@
+.state {
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  left: 12px;
+  top: 12px;
+  padding: 2px 8px;
+  background-color: rgb(0, 153, 255);
+}
+
+.state__text {
+  font-family: Nunito, Arial, sans-serif, dinpro-bold;
+  font-weight: 700;
+}
