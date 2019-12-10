@@ -1,56 +1,62 @@
 {
-  "name": "kyupssy",
+  "name": "kypsy",
   "version": "0.1.0",
-  "description": "Rinse, React, repeat. A React component library.",
-  "main": "dist/rinse.js",
+  "description": "Kypsy a react component library.",
+  "main": "dist/kypsy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
+    "lint": "standard",
     "storybook": "start-storybook -p 9001",
     "docz:dev": "docz dev",
-    "docz:build": "docz build"
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cwlsn/rinse-react.git"
+    "url": "git+https://github.com/kyupss/kypsy.git"
   },
   "keywords": [
-    "Rinse",
-    "rinsejs.io",
     "react",
     "shared",
     "components",
-    "kyupssy"
+    "kypsy"
   ],
-  "author": "Juan David",
+  "author": "juandav",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cwlsn/rinse-react/issues"
+    "url": "https://github.com/kyupss/kypsy/issues"
   },
-  "homepage": "https://github.com/cwlsn/rinse-react#readme",
+  "homepage": "https://github.com/kyupss/kypsy#readme",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "@babel/preset-react": "^7.0.0",
-    "@storybook/addon-actions": "^4.0.0-alpha.20",
-    "@storybook/react": "^4.0.0-alpha.20",
-    "@svgr/webpack": "^4.3.2",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "@svgr/webpack": "^4.3.3",
     "@tulipjs/eslint-config": "^1.1.1",
-    "babel-loader": "^8.0.1",
-    "css-loader": "^1.0.0",
-    "docz": "^1.2.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "docz": "^2.1.1",
     "docz-theme-default": "^1.2.0",
-    "node-sass": "^4.9.3",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "url-loader": "^1.1.2",
-    "webpack": "^4.28.3",
-    "webpack-cli": "^3.2.0"
+    "eslint": "^6.7.2",
+    "standard": "^14.3.1",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "styled-components": "^4.2.1"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0",
+    "styled-components": "^4.4.1"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }
