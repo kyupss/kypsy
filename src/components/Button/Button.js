@@ -11,8 +11,7 @@ function Button (props) {
 }
 
 Button.PropTypes = {
-  onClick: PropTypes.func,
-  hi: PropTypes.string
+  onClick: PropTypes.func
 }
 
 export default Button
